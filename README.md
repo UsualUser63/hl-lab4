@@ -19,4 +19,4 @@ pip install kafka-python
 
 python producer.py
 
-consumer.py запсукается аналогично
+consumer.py запуcкается аналогично
