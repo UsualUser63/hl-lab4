@@ -1,10 +1,6 @@
-# Прежде чем запускать код создаем топик с помощью команды :
-# docker exec broker kafka-topics --bootstrap-server broker:9092 --create --topic topic
-# А также устанваливаем kafka для питона :
-# pip install kafka-python
 from kafka import KafkaConsumer
 from json import loads
-from time import sleep
+
 consumer = KafkaConsumer(
     'topic',
     bootstrap_servers=['localhost:9092'],

@@ -1,7 +1,3 @@
-# Прежде чем запускать код создаем топик с помощью команды :
-# docker exec broker kafka-topics --bootstrap-server broker:9092 --create --topic topic
-# А также устанваливаем kafka для питона :
-# pip install kafka-python
 from time import sleep
 from json import dumps
 from kafka import KafkaProducer
